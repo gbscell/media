@@ -11,7 +11,7 @@
 
 <?php
   $browser = $_SERVER['HTTP_USER_AGENT'];
-  if ($browser =! 'gbscell_aipitv_app') {
+  if ($browser =! 'gbscell_aipitv_appd') {
       echo 'AKU ANJING';
       //echo var_export(unserialize(file_get_contents('http://www.geoplugin.net/php.gp?ip='.$_SERVER['REMOTE_ADDR'])));
     exit();
